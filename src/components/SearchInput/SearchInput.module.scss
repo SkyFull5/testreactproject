@@ -1,0 +1,12 @@
+.wrapper {
+    width: 216px;
+    position: relative;
+}
+
+.icon {
+    position: absolute;
+    top: 50%;
+    bottom: 50%;
+    left: 20px;
+    transform: translate(-50%, -50%);
+}

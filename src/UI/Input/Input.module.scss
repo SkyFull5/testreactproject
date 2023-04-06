@@ -1,0 +1,23 @@
+.input {
+    width: 100%;
+    outline: none;
+    border: none;
+    background: #F9FBFF;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: -0.01em;
+
+
+    &::placeholder {
+        color: #B5B7C0;
+    }
+}
+
+.withIcon {
+    padding-left: 40px;
+}

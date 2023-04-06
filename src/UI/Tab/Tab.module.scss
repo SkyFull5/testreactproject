@@ -1,0 +1,29 @@
+.wrapper {
+    list-style: none;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    padding: 11px 8px 11px 11px;
+    color: #9197B3;
+    cursor: pointer;
+
+    &:hover {
+        background: #5932EA;
+        border-radius: 8px;
+        color: white;
+    }
+
+    &.active {
+        background: #5932EA;
+        border-radius: 8px;
+        color: white;
+    }
+}
+
+.tabInfo {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    color: currentColor;
+}

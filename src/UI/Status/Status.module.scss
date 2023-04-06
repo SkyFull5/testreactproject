@@ -1,0 +1,27 @@
+.wrapper {
+    width: 80px;
+    height: 29px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid;
+    border-radius: 4px;
+
+    &.active {
+        border-color: #00B087;
+        background: rgba(22, 192, 152, 0.38);
+    }
+
+    &.inactive {
+        border-color: #DF0404;
+        background: #FFC5C5;
+    }
+}
+
+.active {
+    color: #008767;
+}
+
+.inactive {
+    color: #DF0404;
+}
