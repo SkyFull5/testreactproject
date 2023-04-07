@@ -1,0 +1,15 @@
+.wrapper {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.wrapperText {
+    display: flex;
+    align-items: flex-end;
+    gap: 4px;
+}
+
+.version {
+    color: #838383;
+}

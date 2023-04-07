@@ -1,0 +1,15 @@
+.wrapper {
+    width: 306px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 36px 28px 76px 28px;
+    background-color: white;
+}
+
+.sidebarContent {
+    display: flex;
+    flex-direction: column;
+    gap: 53px;
+    flex: 1;
+}

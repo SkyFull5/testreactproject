@@ -1,0 +1,16 @@
+.wrapper {
+    display: flex;
+    //align-items: center;
+    padding: 30px 53px 40px 38px;
+}
+
+.headerInfo {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+
+    & p:last-child {
+        color: #16C098;
+    }
+}

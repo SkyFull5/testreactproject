@@ -46,29 +46,31 @@ table {
 #root {
     width: 100vw;
     height: 100vh;
-    background-color: #20232e;
+    background-color: #FAFBFF;
+    display: flex;
+    gap: 71px;
 }
 
 @font-face {
     font-family: 'Poppins';
-    src: url('../public/assets/fonts/Poppins-Medium.eot');
+    src: url('../public/fonts/Poppins-Medium.eot');
     src: local('Poppins Medium'), local('Poppins-Medium'),
-    url('../public/assets/fonts/Poppins-Medium.eot?#iefix') format('embedded-opentype'),
-    url('../public/assets/fonts/Poppins-Medium.woff2') format('woff2'),
-    url('../public/assets/fonts/Poppins-Medium.woff') format('woff'),
-    url('../public/assets/fonts/Poppins-Medium.ttf') format('truetype');
+    url('../public/fonts/Poppins-Medium.eot?#iefix') format('embedded-opentype'),
+    url('../public/fonts/Poppins-Medium.woff2') format('woff2'),
+    url('../public/fonts/Poppins-Medium.woff') format('woff'),
+    url('../public/fonts/Poppins-Medium.ttf') format('truetype');
     font-weight: 500;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Poppins';
-    src: url('../public/assets/fonts/Poppins-Regular.eot');
+    src: url('../public/fonts/Poppins-Regular.eot');
     src: local('Poppins Regular'), local('Poppins-Regular'),
-    url('../public/assets/fonts/Poppins-Regular.eot?#iefix') format('embedded-opentype'),
-    url('../public/assets/fonts/Poppins-Regular.woff2') format('woff2'),
-    url('../public/assets/fonts/Poppins-Regular.woff') format('woff'),
-    url('../public/assets/fonts/Poppins-Regular.ttf') format('truetype');
+    url('../public/fonts/Poppins-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../public/fonts/Poppins-Regular.woff2') format('woff2'),
+    url('../public/fonts/Poppins-Regular.woff') format('woff'),
+    url('../public/fonts/Poppins-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -76,12 +78,12 @@ table {
 
 @font-face {
     font-family: 'Poppins';
-    src: url('../public/assets/fonts/Poppins-SemiBold.eot');
+    src: url('../public/fonts/Poppins-SemiBold.eot');
     src: local('Poppins SemiBold'), local('Poppins-SemiBold'),
-    url('../public/assets/fonts/Poppins-SemiBold.eot?#iefix') format('embedded-opentype'),
-    url('../public/assets/fonts/Poppins-SemiBold.woff2') format('woff2'),
-    url('../public/assets/fonts/Poppins-SemiBold.woff') format('woff'),
-    url('../public/assets/fonts/Poppins-SemiBold.ttf') format('truetype');
+    url('../public/fonts/Poppins-SemiBold.eot?#iefix') format('embedded-opentype'),
+    url('../public/fonts/Poppins-SemiBold.woff2') format('woff2'),
+    url('../public/fonts/Poppins-SemiBold.woff') format('woff'),
+    url('../public/fonts/Poppins-SemiBold.ttf') format('truetype');
     font-weight: 600;
     font-style: normal;
 }

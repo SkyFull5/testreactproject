@@ -1,7 +1,7 @@
 h1.big {
     font-weight: 600;
     font-size: 26px;
-    line-height: 39px;
+    line-height: 26px;
     letter-spacing: 0.01em;
     color: currentColor;
 }
@@ -15,8 +15,8 @@ h2.big {
 
 h3.big {
     font-weight: 600;
-    font-size: 26px;
-    line-height: 39px;
+    font-size: 22px;
+    line-height: 33px;
     color: currentColor;
 }
 
@@ -32,12 +32,21 @@ p {
     }
 
     &.medium {
-        font-weight: 400;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 21px;
     }
 
     &.small {
         font-weight: 400;
         font-size: 12px;
         line-height: 18px;
+    }
+
+    &.verySmall {
+        font-weight: 500;
+        font-size: 10px;
+        line-height: 15px;
+        letter-spacing: -0.01em;
     }
 }
