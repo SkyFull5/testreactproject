@@ -9,25 +9,31 @@ export const tabsContent = [
   {
     label: "Dashboard",
     icon: <IconDashboard />,
+    active: false,
   },
   {
     label: "Product",
     icon: <IconProduct />,
+    active: false,
   },
   {
     label: "Customers",
     icon: <IconCustomers />,
+    active: true,
   },
   {
     label: "Income",
     icon: <IconIncome />,
+    active: false,
   },
   {
     label: "Promote",
     icon: <IconPromote />,
+    active: false,
   },
   {
     label: "Help",
     icon: <IconHelp />,
+    active: false,
   },
 ];

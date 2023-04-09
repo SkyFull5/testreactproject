@@ -7,6 +7,7 @@ const Input = ({ type, placeholder, isIcon, onChange }) => {
 
   const handleChange = (e) => {
     setValue(e.target.value);
+    onChange(e.target.value);
   };
 
   return (

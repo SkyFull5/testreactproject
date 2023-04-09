@@ -3,4 +3,8 @@
     height: fit-content;
     display: flex;
     padding: 41px 0 51px;
+
+    @media (max-width: 641px) {
+        padding: 20px 0 25px;
+    }
 }

@@ -1,5 +1,10 @@
 .wrapper {
     width: 100%;
+    padding: 0 44px 30px 38px;
     display: flex;
     flex-direction: column;
+}
+
+.notExist {
+    padding-top: 38px;
 }

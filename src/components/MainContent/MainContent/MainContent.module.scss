@@ -1,0 +1,7 @@
+.wrapper {
+    width: 100%;
+
+    @media (max-width: 991px) {
+        overflow-x: scroll;
+    }
+}

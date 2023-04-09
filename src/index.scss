@@ -49,6 +49,18 @@ table {
     background-color: #FAFBFF;
     display: flex;
     gap: 71px;
+    padding-right: 95px;
+    overflow: hidden;
+
+    @media (max-width: 1439px) {
+        gap: 30px;
+        padding-right: 50px;
+    }
+
+    @media (max-width: 641px) {
+        gap: 15px;
+        padding-right: 15px;
+    }
 }
 
 @font-face {
@@ -78,7 +90,7 @@ table {
 
 @font-face {
     font-family: 'Poppins';
-    src: url('../public/fonts/Poppins-SemiBold.eot');
+    src: url('../public/fonts/Poppins-SemiBold.ttf');
     src: local('Poppins SemiBold'), local('Poppins-SemiBold'),
     url('../public/fonts/Poppins-SemiBold.eot?#iefix') format('embedded-opentype'),
     url('../public/fonts/Poppins-SemiBold.woff2') format('woff2'),

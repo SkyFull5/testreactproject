@@ -18,6 +18,10 @@
         border-radius: 8px;
         color: white;
     }
+
+    @media (max-width: 1439px) {
+        padding: 8px 4px 8px 8px;
+    }
 }
 
 .tabInfo {

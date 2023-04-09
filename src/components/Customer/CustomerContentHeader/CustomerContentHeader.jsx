@@ -1,4 +1,4 @@
-import s from "./CustomerItem.module.scss";
+import s from "./CustomerContentHeader.module.scss";
 import { Typography } from "../../../UI";
 import { customerContentHeaderLabel } from "../../../tools/const";
 
